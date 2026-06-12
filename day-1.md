@@ -19,6 +19,15 @@
         return result;
     }
 
+## Algorithm (Plain English)
+1. Start with an empty list to store results.
+2. Loop through every number from 1 to n.
+3. If the number is divisible by both 3 and 5, add "FizzBuzz" to the list.
+4. If the number is only divisible by 3, add "Fizz".
+5. If the number is only divisible by 5, add "Buzz".
+6. Otherwise, add the number itself as a string.
+7. Return the list.
+
 <!-- A solution for FizzBuzz in Python-->
 Note: - we need to use range and start from 1 and we add n + 1 to it. 
 - we need == for equal

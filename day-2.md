@@ -11,6 +11,13 @@ function twoSum(nums, target) {
   }
 } 
 
+## Algorithm (Plain English)
+1. Start by looping through the list, loop from 0 to the end of the list.
+2. Start the inner loop so we can loop the list twice for the comparison, make sure to start after the outter loop. 
+3. Add first if statement to compare the ouuter index to the inner index, and see if they add up to the target. 
+4. If they are add up to the target return their indexes.
+
+
 <!-- Soulution for Python  -->
 We need to use   for num in range(1, len(nums)):
                 so we are counting from the index 1, we add 1, and then we add len(nums), 
